@@ -72,17 +72,7 @@ EasyChat is designed to manage and serve question-answer pairs with ease using F
 - **Get Stats**: `GET /stats`
 - **Get Unlogged Questions**: `GET /unlogged_questions`
 - **Clear Unlogged Questions**: `POST /clear_unlogged_questions`
-
-## Directory Structure
-
-- **database.py**: Database operations and photo management.
-- **easychat.py**: Q&A management and fuzzy matching.
-- **licenseauth.py**: License verification and time tampering detection.
-- **server.py**: FastAPI server setup and endpoints.
-- **startrwkv.py**: RWKV server management.
-- **stats_manager.py**: Statistics logging.
-- **word_count.py**: Character counting utilities.
-
+  
 ## License
 
 This project is licensed under the terms of the MIT license. See `LICENSE` for more details.
