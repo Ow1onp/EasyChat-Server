@@ -1,5 +1,3 @@
----
-
 <p align="center">
     <img src="path_to_your_logo_image">
 </p>
@@ -130,15 +128,45 @@ EasyChat is designed to manage and serve question-answer pairs with ease using F
   POST /clear_unlogged_questions
   ```
 
-## Directory Structure
+## Unreal Engine Integration
 
-- **database.py**: Database operations and photo management.
-- **easychat.py**: Q&A management and fuzzy matching.
-- **licenseauth.py**: License verification and time tampering detection.
-- **server.py**: FastAPI server setup and endpoints.
-- **startrwkv.py**: RWKV server management.
-- **stats_manager.py**: Statistics logging.
-- **word_count.py**: Character counting utilities.
+### Interaction with Unreal Engine Plugin
+
+EasyChat can be integrated with Unreal Engine using the provided plugin to enable interaction within Unreal Engine projects.
+
+#### Installation Steps
+
+1. **Download the Plugin**:
+   Download the EasyChat Unreal Engine plugin from the repository or release page.
+
+2. **Add to Your Project**:
+   Copy the plugin folder to the `Plugins` directory of your Unreal Engine project.
+
+3. **Enable the Plugin**:
+   Open your Unreal Engine project, go to `Edit` -> `Plugins`, and enable the EasyChat plugin.
+
+4. **Configure the Plugin**:
+   In the Unreal Engine project settings, search for the `BP Ask Easy Chat` blueprint module, at Data, use the mouse to drag out the operation panel that provides the `Post Data` structure, select the `Create PostData` option, and configure the EasyChat plugin by setting the API endpoint to `http://127.0.0.1:9098/get_answer`.
+
+#### Using the Plugin
+
+- **Send Questions**:
+  Use the `Question` option of the provided `Create PostData` blueprint module to send questions to EasyChat and receive the returned answers in your Unreal Engine project.
+
+- **Processing Response**:
+  Select the answer you need to get in the `BP Ask Easy Chat` blueprint module, which can automatically parse and output only the required data string.
+
+  - `OnEasyChatAnswerReceived`: Output is the preset answer, and only supports the output of the whole sentence.
+  - `OnAnswerReceived`: Output is the answer of the RWKV language model, and only supports the output of the whole sentence.
+  - `OnStream`: Output is the answer of the RWKV language model, and only supports the output of HTTP streaming.
+  - `OnPhotoReceived`: Output is the URL address of the picture provided in the preset answer.
+  - `OnUrlReceived`: Output is the URL address provided in the preset answer.
+  - `OnXReceived`, `OnYReceived`: Output is the size of the picture provided in the preset answer.
+  - `OnEmotionReceived`: Output is the emotion text provided in the preset answer.
+  - `OnActionReceived`: Output is the action text provided in the preset answer.
+  - `OnCountReceived`: Output is the number of characters in the answer.
+
+For more detailed instructions and examples, refer to the plugin documentation included in the plugin folder.
 
 ## License
 
@@ -156,3 +184,5 @@ For any inquiries or issues, please contact the project maintainers at [contact@
 [py-version-url]: https://pypi.org/project/fastapi/
 
 ---
+
+Replace `path_to_your_logo_image` with the actual path to your logo image, and update the `repository_url` with your actual repository URL. Adjust any other placeholders with your specific information as needed.
