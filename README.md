@@ -25,22 +25,6 @@ EasyChat is designed to manage and serve question-answer pairs with ease using F
 - **Statistics Logging**: Track interactions, errors, and unlogged questions.
 - **Character Counting**: Utility functions for counting and filtering Chinese characters, English letters, and numbers in text.
 
-## Installation
-
-### Prerequisites
-
-- Python 3.7+
-- FastAPI
-- SQLAlchemy
-- jieba
-- fuzzywuzzy
-- pandas
-- openpyxl
-- requests
-- uvicorn
-- aiohttp
-- PIL (Pillow)
-
 ### Steps
 
 1. Directly double-click to open `server.exe` to run the server and open the webpage at [http://127.0.0.1:9098/](http://127.0.0.1:9098/).
@@ -184,5 +168,3 @@ For any inquiries or issues, please contact the project maintainers at [contact@
 [py-version-url]: https://pypi.org/project/fastapi/
 
 ---
-
-Replace `path_to_your_logo_image` with the actual path to your logo image, and update the `repository_url` with your actual repository URL. Adjust any other placeholders with your specific information as needed.
