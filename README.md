@@ -53,6 +53,7 @@ EasyChat is designed to manage and serve question-answer pairs with ease using F
 
 ### API Endpoints
 
+```http
 - **Add Q&A Pair**: `POST /add_qa/`
 - **Get Q&A Data**: `GET /qa_data/`
 - **Update Q&A Pair**: `PUT /update_qa/{id}`
@@ -72,7 +73,18 @@ EasyChat is designed to manage and serve question-answer pairs with ease using F
 - **Get Stats**: `GET /stats`
 - **Get Unlogged Questions**: `GET /unlogged_questions`
 - **Clear Unlogged Questions**: `POST /clear_unlogged_questions`
-  
+```
+
+## Directory Structure
+
+- **database.py**: Database operations and photo management.
+- **easychat.py**: Q&A management and fuzzy matching.
+- **licenseauth.py**: License verification and time tampering detection.
+- **server.py**: FastAPI server setup and endpoints.
+- **startrwkv.py**: RWKV server management.
+- **stats_manager.py**: Statistics logging.
+- **word_count.py**: Character counting utilities.
+
 ## License
 
 This project is licensed under the terms of the MIT license. See `LICENSE` for more details.
@@ -89,3 +101,5 @@ For any inquiries or issues, please contact the project maintainers at [contact@
 [py-version-url]: https://pypi.org/project/fastapi/
 
 ---
+
+Replace `path_to_your_logo_image` with the actual path to your logo image, and update the `repository_url` with your actual repository URL. Adjust any other placeholders with your specific information as needed.
