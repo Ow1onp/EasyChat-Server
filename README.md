@@ -158,7 +158,7 @@ This project is licensed under the terms of the MIT license. See `LICENSE` for m
 
 ## Contact
 
-For any inquiries or issues, please contact the project maintainers at [contact@example.com](mailto:contact@example.com).
+For any inquiries or issues, please contact the project maintainers at [contact@example.com](gakkiopl@qq.com).
 
 ---
 
