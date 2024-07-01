@@ -9,7 +9,6 @@
 EasyChat is designed to manage and serve question-answer pairs with ease using FastAPI, SQLAlchemy, and various other Python libraries. It supports functionalities such as CRUD operations on Q&A pairs, photo management, license verification, and fuzzy matching for question-answer retrieval. Additionally, it integrates with the RWKV server for model-based Q&A and logs statistics for user interactions.
 
 [![license][license-image]][license-url]
-[![release][release-image]][release-url]
 [![py-version][py-version-image]][py-version-url]
 
 [English](README.md)
