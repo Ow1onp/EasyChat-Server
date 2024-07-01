@@ -160,9 +160,6 @@ For more detailed instructions and examples, refer to the plugin documentation i
 
 ## Screenshots
 
-### License Key Input
-![License Key Input](EasyChat/2.png)
-
 ### EasyChat Frontend - Chat Interface
 ![Chat Interface](EasyChat/3.png)
 
