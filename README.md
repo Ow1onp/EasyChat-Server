@@ -1,3 +1,7 @@
+以下是更新后的 `README.md` 文件，包括如何与虚幻引擎中的插件进行交互的详细说明，并添加了相关图片的路径：
+
+---
+
 <p align="center">
     <img src="path_to_your_logo_image">
 </p>
@@ -132,6 +136,8 @@ EasyChat can be integrated with Unreal Engine using the provided plugin to enabl
 4. **Configure the Plugin**:
    In the Unreal Engine project settings, search for the `BP Ask Easy Chat` blueprint module, at Data, use the mouse to drag out the operation panel that provides the `Post Data` structure, select the `Create PostData` option, and configure the EasyChat plugin by setting the API endpoint to `http://127.0.0.1:9098/get_answer`.
 
+![Unreal Blueprint Screenshot](EasyChat/1.png)
+
 #### Using the Plugin
 
 - **Send Questions**:
@@ -152,6 +158,20 @@ EasyChat can be integrated with Unreal Engine using the provided plugin to enabl
 
 For more detailed instructions and examples, refer to the plugin documentation included in the plugin folder.
 
+## Screenshots
+
+### License Key Input
+![License Key Input](EasyChat/2.png)
+
+### EasyChat Frontend - Chat Interface
+![Chat Interface](EasyChat/3.png)
+
+### EasyChat Frontend - Data Management
+![Data Management Interface](EasyChat/4.png)
+
+### EasyChat Frontend - Q&A Management
+![Q&A Management Interface](EasyChat/5.png)
+
 ## License
 
 This project is licensed under the terms of the MIT license. See `LICENSE` for more details.
@@ -168,3 +188,5 @@ For any inquiries or issues, please contact the project maintainers at [contact@
 [py-version-url]: https://pypi.org/project/fastapi/
 
 ---
+
+Replace `path_to_your_logo_image` with the actual path to your logo image, and update the `repository_url` with your actual repository URL. Adjust any other placeholders with your specific information as needed.
