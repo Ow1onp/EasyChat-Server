@@ -1,8 +1,20 @@
-# EasyChat Q&A System
+<p align="center">
+    <img src="path_to_your_logo_image">
+</p>
 
-## Overview
+<h1 align="center">EasyChat Q&A System</h1>
 
-EasyChat is a Q&A system designed to manage and serve question-answer pairs using FastAPI, SQLAlchemy, and various other Python libraries. It includes functionalities for CRUD operations on Q&A pairs, photo management, license verification, tokenization, and fuzzy matching for question-answer retrieval, as well as statistics logging and RWKV server integration for model-based Q&A.
+<div align="center">
+
+EasyChat is designed to manage and serve question-answer pairs with ease using FastAPI, SQLAlchemy, and various other Python libraries. It supports functionalities such as CRUD operations on Q&A pairs, photo management, license verification, and fuzzy matching for question-answer retrieval. Additionally, it integrates with the RWKV server for model-based Q&A and logs statistics for user interactions.
+
+[![license][license-image]][license-url]
+[![release][release-image]][release-url]
+[![py-version][py-version-image]][py-version-url]
+
+[English](README.md)
+
+</div>
 
 ## Features
 
@@ -202,4 +214,13 @@ For any inquiries or issues, please contact the project maintainers at [contact@
 
 ---
 
-This README provides an overview of the EasyChat Q&A system, its features, installation steps, usage instructions, directory structure, license information, and contributing guidelines. Adjust the content as necessary to fit your project's specific details and requirements.
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: ./LICENSE
+[release-image]: https://img.shields.io/github/release/your_username/your_repository.svg
+[release-url]: https://github.com/your_username/your_repository/releases/latest
+[py-version-image]: https://img.shields.io/pypi/pyversions/fastapi.svg
+[py-version-url]: https://pypi.org/project/fastapi/
+
+---
+
+Replace `path_to_your_logo_image` with the actual path to your logo image, and update the `repository_url` with your actual repository URL. Adjust any other placeholders with your specific information as needed.
