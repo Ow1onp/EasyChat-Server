@@ -185,5 +185,3 @@ For any inquiries or issues, please contact the project maintainers at [contact@
 [py-version-url]: https://pypi.org/project/fastapi/
 
 ---
-
-Replace `path_to_your_logo_image` with the actual path to your logo image, and update the `repository_url` with your actual repository URL. Adjust any other placeholders with your specific information as needed.
