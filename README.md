@@ -53,27 +53,82 @@ EasyChat is designed to manage and serve question-answer pairs with ease using F
 
 ### API Endpoints
 
-```http
-- **Add Q&A Pair**: `POST /add_qa/`
-- **Get Q&A Data**: `GET /qa_data/`
-- **Update Q&A Pair**: `PUT /update_qa/{id}`
-- **Delete Q&A Pair**: `DELETE /delete_qa/{id}`
-- **Clear All Q&A Pairs**: `POST /clear_qa/`
-- **Upload Photos**: `POST /upload_photos/`
-- **Clear All Photos**: `DELETE /clear_photos/`
-- **Verify License**: `POST /verify_license`
-- **Get UUID**: `GET /get_uuid`
-- **Reset License**: `POST /reset_license`
-- **Upload File**: `POST /upload_file/`
-- **Export Q&A Pairs**: `GET /export_qa_pairs/`
-- **Start RWKV Server**: `POST /start_rwkv_server`
-- **Stop RWKV Server**: `POST /stop_rwkv_server`
-- **Get Settings**: `GET /settings`
-- **Modify Settings**: `POST /settings_modify`
-- **Get Stats**: `GET /stats`
-- **Get Unlogged Questions**: `GET /unlogged_questions`
-- **Clear Unlogged Questions**: `POST /clear_unlogged_questions`
-```
+- **Add Q&A Pair**: 
+  ```sh
+  POST /add_qa/
+  ```
+- **Get Q&A Data**: 
+  ```sh
+  GET /qa_data/
+  ```
+- **Update Q&A Pair**: 
+  ```sh
+  PUT /update_qa/{id}
+  ```
+- **Delete Q&A Pair**: 
+  ```sh
+  DELETE /delete_qa/{id}
+  ```
+- **Clear All Q&A Pairs**: 
+  ```sh
+  POST /clear_qa/
+  ```
+- **Upload Photos**: 
+  ```sh
+  POST /upload_photos/
+  ```
+- **Clear All Photos**: 
+  ```sh
+  DELETE /clear_photos/
+  ```
+- **Verify License**: 
+  ```sh
+  POST /verify_license
+  ```
+- **Get UUID**: 
+  ```sh
+  GET /get_uuid
+  ```
+- **Reset License**: 
+  ```sh
+  POST /reset_license
+  ```
+- **Upload File**: 
+  ```sh
+  POST /upload_file/
+  ```
+- **Export Q&A Pairs**: 
+  ```sh
+  GET /export_qa_pairs/
+  ```
+- **Start RWKV Server**: 
+  ```sh
+  POST /start_rwkv_server
+  ```
+- **Stop RWKV Server**: 
+  ```sh
+  POST /stop_rwkv_server
+  ```
+- **Get Settings**: 
+  ```sh
+  GET /settings
+  ```
+- **Modify Settings**: 
+  ```sh
+  POST /settings_modify
+  ```
+- **Get Stats**: 
+  ```sh
+  GET /stats
+  ```
+- **Get Unlogged Questions**: 
+  ```sh
+  GET /unlogged_questions
+  ```
+- **Clear Unlogged Questions**: 
+  ```sh
+  POST /clear_unlogged_questions
+  ```
 
 ## Directory Structure
 
