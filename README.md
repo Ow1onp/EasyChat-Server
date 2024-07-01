@@ -1,3 +1,5 @@
+---
+
 <p align="center">
     <img src="path_to_your_logo_image">
 </p>
@@ -43,146 +45,33 @@ EasyChat is designed to manage and serve question-answer pairs with ease using F
 
 ### Steps
 
-1. Clone the repository:
-   ```sh
-   git clone <repository_url>
-   cd easychat
-   ```
-
-2. Install the required dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. Set up the database:
-   ```sh
-   python -m database
-   ```
-
-4. Create necessary directories:
-   ```sh
-   mkdir -p data/photo data/uploads
-   ```
+1. Directly double-click to open `server.exe` to run the server and open the webpage at [http://127.0.0.1:9098/](http://127.0.0.1:9098/).
+2. Click the register button, copy the machine code, and provide it to the administrator to receive a license key.
+3. Enter the license key on the webpage [http://127.0.0.1:9098/](http://127.0.0.1:9098/) to start using the system normally.
 
 ## Usage
 
-### Running the Server
-
-To start the FastAPI server, run:
-```sh
-python server.py
-```
-
 ### API Endpoints
 
-#### Q&A Management
-
-- **Add Q&A Pair**
-  ```sh
-  POST /add_qa/
-  ```
-
-- **Get Q&A Data**
-  ```sh
-  GET /qa_data/
-  ```
-
-- **Update Q&A Pair**
-  ```sh
-  PUT /update_qa/{id}
-  ```
-
-- **Delete Q&A Pair**
-  ```sh
-  DELETE /delete_qa/{id}
-  ```
-
-- **Clear All Q&A Pairs**
-  ```sh
-  POST /clear_qa/
-  ```
-
-#### Photo Management
-
-- **Upload Photos**
-  ```sh
-  POST /upload_photos/
-  ```
-
-- **Clear All Photos**
-  ```sh
-  DELETE /clear_photos/
-  ```
-
-#### License Management
-
-- **Verify License**
-  ```sh
-  POST /verify_license
-  ```
-
-- **Get UUID**
-  ```sh
-  GET /get_uuid
-  ```
-
-- **Reset License**
-  ```sh
-  POST /reset_license
-  ```
-
-#### Export/Import Data
-
-- **Upload File**
-  ```sh
-  POST /upload_file/
-  ```
-
-- **Export Q&A Pairs**
-  ```sh
-  GET /export_qa_pairs/
-  ```
-
-#### RWKV Server Management
-
-- **Start RWKV Server**
-  ```sh
-  POST /start_rwkv_server
-  ```
-
-- **Stop RWKV Server**
-  ```sh
-  POST /stop_rwkv_server
-  ```
-
-#### Settings Management
-
-- **Get Settings**
-  ```sh
-  GET /settings
-  ```
-
-- **Modify Settings**
-  ```sh
-  POST /settings_modify
-  ```
-
-#### Statistics Management
-
-- **Get Stats**
-  ```sh
-  GET /stats
-  ```
-
-- **Get Unlogged Questions**
-  ```sh
-  GET /unlogged_questions
-  ```
-
-- **Clear Unlogged Questions**
-  ```sh
-  POST /clear_unlogged_questions
-  ```
+- **Add Q&A Pair**: `POST /add_qa/`
+- **Get Q&A Data**: `GET /qa_data/`
+- **Update Q&A Pair**: `PUT /update_qa/{id}`
+- **Delete Q&A Pair**: `DELETE /delete_qa/{id}`
+- **Clear All Q&A Pairs**: `POST /clear_qa/`
+- **Upload Photos**: `POST /upload_photos/`
+- **Clear All Photos**: `DELETE /clear_photos/`
+- **Verify License**: `POST /verify_license`
+- **Get UUID**: `GET /get_uuid`
+- **Reset License**: `POST /reset_license`
+- **Upload File**: `POST /upload_file/`
+- **Export Q&A Pairs**: `GET /export_qa_pairs/`
+- **Start RWKV Server**: `POST /start_rwkv_server`
+- **Stop RWKV Server**: `POST /stop_rwkv_server`
+- **Get Settings**: `GET /settings`
+- **Modify Settings**: `POST /settings_modify`
+- **Get Stats**: `GET /stats`
+- **Get Unlogged Questions**: `GET /unlogged_questions`
+- **Clear Unlogged Questions**: `POST /clear_unlogged_questions`
 
 ## Directory Structure
 
@@ -198,15 +87,6 @@ python server.py
 
 This project is licensed under the terms of the MIT license. See `LICENSE` for more details.
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a Pull Request.
-
 ## Contact
 
 For any inquiries or issues, please contact the project maintainers at [contact@example.com](mailto:contact@example.com).
@@ -215,11 +95,7 @@ For any inquiries or issues, please contact the project maintainers at [contact@
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: ./LICENSE
-[release-image]: https://img.shields.io/github/release/your_username/your_repository.svg
-[release-url]: https://github.com/your_username/your_repository/releases/latest
 [py-version-image]: https://img.shields.io/pypi/pyversions/fastapi.svg
 [py-version-url]: https://pypi.org/project/fastapi/
 
 ---
-
-Replace `path_to_your_logo_image` with the actual path to your logo image, and update the `repository_url` with your actual repository URL. Adjust any other placeholders with your specific information as needed.
