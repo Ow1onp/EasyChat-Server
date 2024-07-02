@@ -1,6 +1,3 @@
-以下是更新后的 `README.md` 文件，包括如何与虚幻引擎中的插件进行交互的详细说明，并添加了相关图片的路径：
-
----
 
 <p align="center">
     <img src="path_to_your_logo_image">
